@@ -10,7 +10,6 @@ app = Flask(__name__)
 def get_users():
     select_users = """SELECT * FROM users"""
     users = db_executor(select_users)
-    # print(users)
     return jsonify({'users': users})
 
 
