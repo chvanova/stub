@@ -1,5 +1,3 @@
-import os
-
 host = 'localhost'
 user = 'postgres_user'
 password = 'postgres'
